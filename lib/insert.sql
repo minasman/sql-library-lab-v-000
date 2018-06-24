@@ -29,4 +29,25 @@ INSERT INTO characters (id, name, motto, species, author_id, series_id) VALUES (
 INSERT INTO characters (id, name, motto, species, author_id, series_id) VALUES (7, "Hermione Granger", "Don't Look at Me", "Human", 2, 2);
 INSERT INTO characters (id, name, motto, species, author_id, series_id) VALUES (8, "Bob Bobber", "BOB", "Elf", 2, 2);
 
-INSERT INTO character_books (id, character_id, book_id) VALUES ();
+INSERT INTO character_books (id, character_id, book_id) VALUES (1, 1, 1);
+INSERT INTO character_books (id, character_id, book_id) VALUES (2, 1, 2);
+INSERT INTO character_books (id, character_id, book_id) VALUES (3, 1, 3);
+INSERT INTO character_books (id, character_id, book_id) VALUES (4, 4, 1);
+INSERT INTO character_books (id, character_id, book_id) VALUES (5, 4, 2);
+INSERT INTO character_books (id, character_id, book_id) VALUES (6, 4, 3);
+INSERT INTO character_books (id, character_id, book_id) VALUES (7, 2, 1);
+INSERT INTO character_books (id, character_id, book_id) VALUES (8, 2, 3);
+
+INSERT INTO character_books (id, character_id, book_id) VALUES (9, 6, 4);
+INSERT INTO character_books (id, character_id, book_id) VALUES (10, 6, 5);
+INSERT INTO character_books (id, character_id, book_id) VALUES (11, 6, 6);
+INSERT INTO character_books (id, character_id, book_id) VALUES (12, 7, 4);
+INSERT INTO character_books (id, character_id, book_id) VALUES (13, 7, 5);
+INSERT INTO character_books (id, character_id, book_id) VALUES (14, 7, 6);
+INSERT INTO character_books (id, character_id, book_id) VALUES (15, 5, 5);
+INSERT INTO character_books (id, character_id, book_id) VALUES (16, 8, 4);
+
+
+
+
+

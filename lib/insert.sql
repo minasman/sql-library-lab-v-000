@@ -1,4 +1,5 @@
 INSERT INTO series () VALUES ();
+INSERT INTO series () VALUES ();
 
 INSERT INTO subgenres () VALUES ();
 

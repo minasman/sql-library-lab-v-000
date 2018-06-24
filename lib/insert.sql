@@ -5,8 +5,10 @@ INSERT INTO subgenres (id, name) VALUES (1, "Medieval Fantasy");
 INSERT INTO subgenres (id, name) VALUES (2, "Witches");
 
 
-INSERT INTO authors (id, name) VALUES ();
+INSERT INTO authors (id, name) VALUES (1, "Dan Brown");
+INSERT INTO authors (id, name) VALUES (2, "Jane Doe");
 
-INSERT INTO books () VALUES ();
+
+INSERT INTO books (id, title, year, series_id) VALUES ();
 
 INSERT INTO characters () VALUES ();

@@ -19,4 +19,14 @@ INSERT INTO books (id, title, year, series_id) VALUES (6, "The Sorcerers Stone",
 
 
 
-INSERT INTO characters (id, name, motto, species, author_id, series_id) VALUES ();
+INSERT INTO characters (id, name, motto, species, author_id, series_id) VALUES (1, "Prince Ice", "Its cold in here", "Human", 1, 1);
+INSERT INTO characters (id, name, motto, species, author_id, series_id) VALUES (2, "Queen Heat", "Its hot in here", "Human", 1, 1);
+INSERT INTO characters (id, name, motto, species, author_id, series_id) VALUES (3, "King Aqua", "Its wet in here", "Ogre", 1, 1);
+INSERT INTO characters (id, name, motto, species, author_id, series_id) VALUES (4, "Princess Steel", "Where am I", "Elf", 1, 1);
+
+INSERT INTO characters (id, name, motto, species, author_id, series_id) VALUES (5, "Harry Potter", "I got magic", "Human", 2, 2);
+INSERT INTO characters (id, name, motto, species, author_id, series_id) VALUES (6, "Snape", "I am the mighty Snape", "Dragon", 2, 2);
+INSERT INTO characters (id, name, motto, species, author_id, series_id) VALUES (7, "Hermione Granger", "Don't Look at Me", "Human", 2, 2);
+INSERT INTO characters (id, name, motto, species, author_id, series_id) VALUES (8, "Bob Bobber", "BOB", "Elf", 2, 2);
+
+INSERT INTO character_books (id, character_id, book_id) VALUES ();
